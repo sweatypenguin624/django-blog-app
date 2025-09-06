@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-pcewjhd^ggv5fhqal4%$d!myh95m&v3=hdp5ax#les-ef9-i21
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['django-blog-app-nxtt.onrender.com']
+ALLOWED_HOSTS = ['django-blog-app-nxtt.onrender.com','127.0.0.1','localhost']
 
 
 # Application definition
@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'website.apps.WebsiteConfig',
+    
 ]
 
 MIDDLEWARE = [
